@@ -3,7 +3,9 @@ var crypto = require('crypto');
 
 
 function main() {
-    var obj = { c: 6, b: {z: ["sadfcasdf","asdfdsf"], b:3}, a: 3, z: null };
+    var obj = require('./payloads/array_payload.json');
+    //var obj = require('./payloads/100k.json');
+
     console.time("old stringify");
     for (var i = 0; i < 100000; i++) {
         sortedStringify(obj)
