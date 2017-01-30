@@ -1,0 +1,12 @@
+{
+  "name": "test",
+  "version": "1.0.1",
+  "main": "index.js",
+  "dependencies": {
+    "json-stable-stringify": "1.0.1"
+  },
+  "scripts": {
+    "test": "node index.js"
+  },
+  "license": "MIT"
+}
